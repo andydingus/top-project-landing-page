@@ -1,6 +1,7 @@
 /* Nothing in here yet but I'm ready to be filled (pause) */
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 /* Header styles */
@@ -42,11 +43,24 @@ a:visited {
 .hero {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: initial;
 }
 
 /* Only 1 image so far, might change it to ID name later on if I add another */
 img {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
