@@ -58,6 +58,36 @@ a:visited {
     font-weight: initial;
 }
 
+/* Information styles */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.cube {
+    border: solid 2px #3882F6;
+    /* Rounded corners are created with the style below */
+    border-radius: 20px;
+    /* Looking to change these eventually (maybe with flex-basis in container? max/min-width/height?) */
+    width: 200px;
+    height: 200px;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    gap: 32px;
+}
+
 /* Only 1 image so far, might change it to ID name later on if I add another */
 img {
     width: 500px;
