@@ -1,1 +1,52 @@
 /* Nothing in here yet but I'm ready to be filled (pause) */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background: #1F2937;
+}
+
+.left {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #E5E7EB;
+}
+
+/* Hero styles */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Only 1 image so far, might change it to ID name later on if I add another */
+img {
+    width: 300px;
+    height: auto;
+}
+
