@@ -63,6 +63,12 @@ a:visited {
     font-weight: initial;
 }
 
+/* Only 1 image so far, might change it to ID name later on if I add another */
+.container > img {
+    width: 500px;
+    height: auto;
+}
+
 /* Information styles */
 
 .information {
@@ -89,6 +95,7 @@ a:visited {
 
 .information > .container {
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 /* Quote styles */
@@ -167,9 +174,16 @@ blockquote > p {
     min-height: 10px;
 }
 
-/* Only 1 image so far, might change it to ID name later on if I add another */
-img {
-    width: 500px;
-    height: auto;
+/* Footer styles*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+
 }
+
+
 
