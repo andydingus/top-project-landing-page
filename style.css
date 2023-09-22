@@ -88,6 +88,36 @@ a:visited {
     gap: 32px;
 }
 
+/* Quote styles */
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote > p {
+    max-width: 820px;
+}
+
+/* Footer after the quote that has the quote author's name */
+#quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+
 /* Only 1 image so far, might change it to ID name later on if I add another */
 img {
     width: 500px;
