@@ -17,6 +17,7 @@ body {
 #top {
     display: flex;
     flex-direction: column;
+    margin: 0 200px;
 }
 
 /* Header styles */
@@ -26,6 +27,7 @@ body {
     justify-content: space-between;
     margin: 0;
     background: #1F2937;
+    padding: 15px 0;
 }
 
 .left {
@@ -57,31 +59,37 @@ a:visited {
 
 .hero {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background-color: #1F2937;
-    margin: 32px 16px;
-    gap: 32px;
+    padding: 80px 0;
 }
 
-.title {
+.hero > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 400px;
+    gap: 10px;
 }
 
 .subtitle {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: initial;
+    max-width: 1000px;
 }
 
 /* Only 1 image so far, might change it to ID name later on if I add another */
 .container > img {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
-.title > button {
+/* Styles the button inside of a div.container inside of div.hero */
+.hero > .container > button {
     font-weight: bold;
     text-align: center;
     background: #3882F6;
@@ -89,8 +97,7 @@ a:visited {
     border-radius: 6px;
     border: 2px solid #3882F6;
     padding: 5px 20px;
-    min-width: 100px;
-    min-height: 10px;
+    width: 100px;
 }
 
 /* Information styles */
